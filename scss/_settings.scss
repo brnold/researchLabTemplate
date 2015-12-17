@@ -47,7 +47,6 @@ $global-width: rem-calc(1200);
 $global-font-size: 100%;
 $global-lineheight: 1.5;
 
-
 //$primary-color: #7D3F0E;
 $primary-color: #637081;
 
@@ -63,7 +62,6 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-
 $aluminium: #a9acb6;
 $brown-light: #e8d1bf;
 $body-background: $white;
@@ -193,8 +191,6 @@ $input-error-font-weight: $global-weight-bold;
 
 // 7. Accordion
 // ------------
-
-$accordion-background: $white;
 
 $accordion-background: $aluminium;
 $accordion-plusminus: true;
@@ -539,4 +535,3 @@ $topbar-padding: 0.5rem;
 $topbar-background: $primary-color;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
-
