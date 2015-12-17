@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -60,10 +61,23 @@ bottom: 0;
 width: 100%;
 background-color: $primary-color;
 height: 50px; /* choose any height */
+color: $white;
 
 }
 
 .is-active {
         background: rgba($secondary-color,1);
         color: $secondary-color;
-      }
+}
+
+.title_box_panel{
+    @include callout-base();
+    
+    
+    h1.title {
+        font-family: 'Wire One', sans-serif;
+        font-size: 80px;
+        font-style: sans-serif;
+        font-variant: sans-serif;    
+    }
+}

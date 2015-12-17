@@ -6,6 +6,7 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
   transition-timing-function: linear; }
@@ -3716,8 +3717,26 @@ table.hover tr:nth-of-type(even):hover {
   width: 100%;
   background-color: #153856;
   height: 50px;
-  /* choose any height */ }
+  /* choose any height */
+  color: #fefefe; }
 
 .is-active {
   background: #4d6f8c;
   color: #4D6F8C; }
+
+.title_box_panel {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(10, 10, 10, 0.25);
+  border-radius: 0;
+  position: relative;
+  color: #0a0a0a; }
+  .title_box_panel > :first-child {
+    margin-top: 0; }
+  .title_box_panel > :last-child {
+    margin-bottom: 0; }
+  .title_box_panel h1.title {
+    font-family: 'Wire One', sans-serif;
+    font-size: 80px;
+    font-style: sans-serif;
+    font-variant: sans-serif; }
