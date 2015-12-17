@@ -46,8 +46,15 @@
 $global-width: rem-calc(1200);
 $global-font-size: 100%;
 $global-lineheight: 1.5;
-$primary-color: #2199e8;
-$secondary-color: #777;
+
+
+//$primary-color: #7D3F0E;
+$primary-color: #637081;
+
+$secondary-color: #7C98B3;
+$olive-green: #899D78;
+$pastel-white: #E0D3DE;
+
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -56,6 +63,9 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+
+$aluminium: #a9acb6;
+$brown-light: #e8d1bf;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -185,6 +195,8 @@ $input-error-font-weight: $global-weight-bold;
 // ------------
 
 $accordion-background: $white;
+
+$accordion-background: $aluminium;
 $accordion-plusminus: true;
 $accordion-item-color: foreground($accordion-background, $primary-color);
 $accordion-item-background-hover: $light-gray;
@@ -524,7 +536,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: #eee;
+$topbar-background: $primary-color;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
 

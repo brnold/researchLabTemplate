@@ -41,3 +41,25 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@mixin circle($size){
+     width: $size;
+     height: $size;
+     border-radius: 100%;
+}
+
+.circleImage {
+    @include circle(200px);
+    
+}
+
+.footer {
+
+bottom: 0;
+
+width: 100%;
+background-color: $primary-color;
+height: 100px; /* choose any height */
+
+}
+
